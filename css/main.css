@@ -1,0 +1,36 @@
+/*general*/
+a{
+	text-decoration: none;
+}
+li{
+	display: inline;
+}
+img{
+    width: 100%;
+}
+/*color letras*/
+.yellow{
+	color:#F7BA6A;
+}
+.white{
+	color: #FFFFFF;
+}
+/*background*/
+.grisf{
+    background-color: #1C1821; 
+}
+.grisc{
+    background-color: #2D2735;
+}
+#flores-moradas{
+    background-image: url("../image/header-image.jpg")
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}

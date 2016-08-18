@@ -5,12 +5,13 @@ a{
 li{
 	display: inline;
 }
-img{
+img, iframe, input{
     width: 100%;
 }
 /*color letras*/
 .yellow{
 	color:#F7BA6A;
+	font-family: 'Courgette', cursive;
 }
 .white{
 	color: #FFFFFF;
@@ -23,7 +24,38 @@ img{
     background-color: #2D2735;
 }
 #flores-moradas{
-    background-image: url("../image/header-image.jpg")
+    background-image: url("../image/header-image.jpg");
+    background-size: 100% 100%;
+    padding: 15%;
+    margin-bottom: 1%;
+}
+/*header*/
+#logo{
+    width:50%;
+    margin-top: -3%;
+}
+nav{
+	padding-top: 8%;
+}
+/*SPRING CAME*/
+#cajanegra{
+	margin-top:-10%;
+	padding: 6%;
+}
+/*video y flores*/
+section .col-md-7, aside, footer, #aboutme{
+	margin-top: 3%;
+}
+/*ASIDE*/
+input{
+	border:none;
+}
+#iconos *{
+	padding:3%;
+	font-size: 2em;
+	background-color: #2D2735;
+	border-radius: 50%;
+	margin-bottom: 3%;
 }
 /* Responsive */
 

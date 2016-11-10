@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,31 +12,43 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link rel="stylesheet" href="css/utilities.css">
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 </head>
 <body class="grisc">
-	<header class="grisf navbar navbar-inverse">
-		<div class="container-fluid">
-			<a href="" class="navbar-brand"><img src="image/header-logo.png" alt="logo" id="logo"></a>
-			<button class="navbar-toogle" data-toggle="collapse" data-target=".navHeaderCollapse">
-				<i class="fa fa-bars hidden-md " aria-hidden="true"></i>
-			</button>
-			<div class="collapse navbar-collapse navHeaderCollapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href=""><i class="white">LIFESYLE</i></a></li>
-					<li><a href=""><i class="white">FLOWERS</i></a></li>
-					<li><a href=""><i class="white">FASHION</i></a></li>
-					<li><a href=""><i class="white">NEWS</i></a></li>
-					<li><a href=""><i class="white">FEATURES</i></a></li>
-				</ul>
-			</div>
-		</div>		
+	<header>
+        <div class="container-fluid">
+        <!--MENU DESPLEGABLE-->
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12">
+                  <nav class="navbar navbar-inverse  animated" role="navigation">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                          <span class="sr-only">Desplegar navegación</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                      </button>
+                      <a href="index.html"><img src="image/header-logo.png" alt="logo" class=" hidden-sm hidden-xs"></a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="font-italic "><a href="#" class="white"><i>LIFESTYLE</i></a></li>
+                        <li class="font-italic "><a href="#" class="white"><i>FLOWERS</i></a></li>
+                        <li class="font-italic "><a href="#" class="white"><i>FASHION</i></a></li>
+                        <li class="font-italic "><a href="" class="white"><i>NEWS</i></a></li>
+                        <li class="font-italic "><a href="" class="white"><i>FEATURES</i></a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+            </div>
+        </div>		
 	</header>
     <div class="container">
         <!--SRING CAME-->
         <section id="flores-moradas">
             <div class="row">
-                <a href="">
+                <a href="" id="springCame">
                     <div class="col-md-12 text-center" >
                        <div class="grisf" id="cajanegra">
                             <h1 class="yellow">Spring Came</h1>
@@ -48,7 +60,7 @@
         </section>
         <!--3 FLORES-->
         <section>
-            <div class="row">
+            <div class="row tresFlores">
                <!--COLUMNA1-->
                 <div class="col-md-4 col-xs-12 text-center">
                     <div>
@@ -92,21 +104,21 @@
                 <!--COLUMNA3-->
                 <div class="col-md-4 col-xs-12 text-center">
                     <div>
-                     <!--IMAGEN-->
+                      <!--IMAGEN-->
                       <div class="row">
-                    	<div class="col-md-12 col-xs-12">                  
-                    		<img src="image/image2.jpg"alt="flor">
-                    	</div>
-                  	</div> 
-                  	<!--TEXTO-->
-                  	<div class="row">
-                    	<div class="col-md-12 col-xs-12">
-                      		<div class="grisf pd-5">
-                            	<h2 class="yellow">Garden flowers</h2>
-                            	<p class="white">Life Amanda RAy 28th october 2015</p>
-	                        </div>
-                    	</div>
-                  	</div> 
+                          <div class="col-md-12 col-xs-12">                  
+                             <img src="image/image2.jpg"alt="flor">
+                          </div>
+                      </div> 
+                      <!--TEXTO-->
+                      <div class="row">
+                          <div class="col-md-12 col-xs-12">
+                              <div class="grisf pd-5">
+                                <h2 class="yellow">Garden flowers</h2>
+                                <p class="white">Life Amanda RAy 28th october 2015</p>
+                              </div>
+                          </div>
+                      </div> 
                     </div>
                 </div>
             </div>
@@ -161,7 +173,8 @@
 	                    <div class="col-md-12 col-xs-12">
 	                        <div class="row">
 	                            <div class="col-md-12 col-xs-12">
-	                            <h2 class="yellow text-center">About Me</h2></div>
+	                                <h2 class="yellow text-center">About Me</h2>
+	                            </div>
 	                        </div>
 	                        <!--imagen-->
 	                        <div class="row">
@@ -197,6 +210,9 @@
             </div>
         </div>
     </footer>
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 	<!--BOOTSTRAP-->
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
